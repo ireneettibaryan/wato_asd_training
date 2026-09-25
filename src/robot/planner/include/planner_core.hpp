@@ -7,13 +7,18 @@ namespace robot
 {
 
 class PlannerCore {
+
   public:
-    explicit PlannerCore(const rclcpp::Logger& logger);
+
+    explicit PlannerCore(
+      const rclcpp::Logger& logger);
 
   private:
+
     rclcpp::Logger logger_;
+
 };
 
-}  
+}
 
-#endif  
+#endif
